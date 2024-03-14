@@ -1,0 +1,44 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .social-icons {
+    margin-top: 10px;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+  }
+
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+  }
+
+  .email-icon img {
+    width: 25px;
+    height: 20px;
+    vertical-align: middle;
+  }
+
+  @media (max-width: 768px) {
+    .social-icons img {
+      width: 25px;
+      height: 25px;
+    }
+
+    .email-icon img {
+      width: 20px;
+      height: 15px;
+    }
+  }
